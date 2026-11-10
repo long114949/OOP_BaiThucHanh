@@ -2,7 +2,6 @@
 #include <string>
 #include <iomanip>
 using namespace std;
-
 class phuong_tien {
 private:
     int ma_xe;
