@@ -231,24 +231,6 @@ int SystemInterface::tao_ma_moi() {
     return ma;
 }
 
-//int nhap_so(string tb) {
-//    int n;
-//
-//    while (true) {
-//        cout << tb;
-//        cin >> n;
-//
-//        if (cin.fail()) {
-//            cout << "Nhap sai! Hay nhap lai.\n";
-//            cin.clear();
-//            cin.ignore(1000, '\n');
-//        }
-//        else {
-//            cin.ignore(1000, '\n');
-//            return n;
-//        }
-//    }
-//}
 
 void SystemInterface::runMenu() {
     int chon;
